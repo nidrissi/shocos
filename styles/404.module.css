@@ -1,0 +1,9 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: xx-large;
+  min-block-size: 50vh;
+  min-inline-size: 50vw;
+}
