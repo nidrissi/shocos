@@ -1,0 +1,92 @@
+:root {
+  --text: #1b1b1b;
+  --muted: #5c5c5c;
+  --background: #f3f3f3;
+  --primary: #005ea2;
+  --accent: #286846;
+  --primary-on-accent: #cfe8ff;
+  --error: #b21d38;
+  accent-color: var(--accent);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__next {
+  block-size: 100%;
+}
+
+body {
+  font-size: clamp(1rem, 0.96rem + 0.18vw, 1.125rem);
+  margin: 0;
+  color: var(--text);
+  background-color: var(--background);
+  hyphens: auto;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+a {
+  color: var(--primary);
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
+blockquote {
+  font-size: larger;
+  letter-spacing: -0.01rem;
+}
+
+pre {
+  padding: .25rem .5rem;
+  overflow-x: auto;
+}
+
+pre,
+code,
+samp,
+kbd {
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: attr(width) / attr(height);
+}
+
+figcaption {
+  color: var(--muted);
+  font-style: italic;
+  font-size: smaller;
+}
+
+video {
+  max-inline-size: 100%;
+}
+
+.prose {
+  max-inline-size: min(66ch, 100%);
+}
+
+.prose :is(p, ul, ol, blockquote) {
+  line-height: 1.35;
+}
+
+.prose :is(h1, h2, h3, h4, h5, h6) {
+  line-height: 1.15;
+}
+
+/* https://katex.org/docs/issues.html */
+.katex-display > .katex {
+  white-space: normal !important;
+}

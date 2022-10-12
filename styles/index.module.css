@@ -1,0 +1,45 @@
+.index {
+    max-inline-size: 120ch;
+    margin-inline: auto;
+    padding: .5rem 1rem;
+}
+
+.index table {
+    border-collapse: collapse;
+    margin-inline: auto;
+}
+
+.index table em {
+    font-style: normal;
+    font-variant-caps: small-caps;
+}
+
+.index thead {
+    border-block-end: thin solid var(--text);
+}
+
+.index th {
+    text-align: start;
+}
+
+.index td,
+.index th {
+    padding-inline: 1rem;
+}
+
+.navbar {
+    background-color: var(--accent);
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: var(--background);
+}
+
+.navbar a::after {
+    content: " ▽";
+    font-size: small;
+}

@@ -1,0 +1,30 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "arrow-body-style": "warn",
+    "camelcase": "warn",
+    "capitalized-comments": [
+      "warn",
+      "always"
+    ],
+    "comma-dangle": [
+      "warn",
+      "always-multiline"
+    ],
+    "eqeqeq": "error",
+    "no-duplicate-imports": "error",
+    "newline-per-chained-call": "warn",
+    "no-extra-parens": "warn",
+    "no-multiple-empty-lines": [
+      "warn",
+      {
+        "max": 1
+      }
+    ],
+    "no-useless-rename": "warn",
+    "no-useless-return": "warn",
+    "quotes": "warn",
+    "semi": "error"
+  }
+}

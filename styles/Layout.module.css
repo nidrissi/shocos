@@ -1,0 +1,27 @@
+.box {
+    block-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box > main {
+    flex-grow: 1;
+}
+
+.box > footer {
+    padding: .5rem;
+    color: var(--background);
+    background-color: var(--accent);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box > footer a {
+    color: var(--primary-on-accent);
+}
+
+.box > footer img {
+    max-height: 4ex;
+}
