@@ -1,11 +1,11 @@
 :root {
   --text: #1b1b1b;
-  --muted: #5c5c5c;
   --background: #f3f3f3;
   --primary: #005ea2;
   --accent: #286846;
   --primary-on-accent: #cfe8ff;
   --error: #b21d38;
+  --semi-transparent: rgba(255, 255, 255, 0.5);
   accent-color: var(--accent);
 }
 
@@ -61,7 +61,6 @@ img {
   display: block;
   inline-size: 100%;
   block-size: auto;
-  aspect-ratio: attr(width) / attr(height);
 }
 
 figcaption {

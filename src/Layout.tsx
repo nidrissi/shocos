@@ -21,7 +21,7 @@ export default function Layout({ title, description, children }: LayoutProps) {
         <footer>
             <div><Link href="/">SHoCoS</Link></div>
             <div>Contact: <a href="https://idrissi.eu">Najib Idrissi</a></div>
-            <div><a href="https://anr.fr"><img src="/logos/anr.svg" alt="Funded by the ANR" /></a></div>
+            <div><a href="https://anr.fr"><img src="/logos/anr.svg" alt="Funded by the ANR" data-bg /></a></div>
             <div><a href="https://u-paris.fr"><img src="/logos/upc.svg" alt="Hosted at Université Paris Cité" /></a></div>
             <div><a href="https://www.cnrs.fr"><img src="/logos/cnrs.svg" alt="Managed by the CNRS" /></a></div>
         </footer>

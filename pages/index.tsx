@@ -1,5 +1,4 @@
 import { GetStaticProps } from "next";
-import Link from "next/link";
 import htmlize from "../src/htmlize";
 import Layout from "../src/Layout";
 import styles from "../styles/index.module.css";
@@ -13,11 +12,11 @@ export default function Home({ html }: HomeProps) {
     description="Structure and Homotopy of Configuration Spaces (SHoCoS), a project funded by the Agence Nationale de la Recherche (ANR-22-CE40-0008)."
   >
     <nav className={styles["navbar"]}>
-      <Link href="#public-abstract">Abstract</Link>
-      <Link href="#members">Members</Link>
-      <Link href="#events">Events</Link>
-      <Link href="#position">Postdoc</Link>
-      <Link href="#publications">Publications</Link>
+      <a href="#presentation">Presentation</a>
+      <a href="#members">Members</a>
+      <a href="#events">Events</a>
+      <a href="#postdoctoral-position">Postdoc</a>
+      <a href="#publications">Publications</a>
     </nav>
 
     <div className={styles["index"]}
@@ -27,6 +26,6 @@ export default function Home({ html }: HomeProps) {
 
 export const getStaticProps: GetStaticProps<HomeProps, {}> = () => ({
   props: {
-    html: htmlize("index.md"),
+    html: htmlize("index"),
   },
 });

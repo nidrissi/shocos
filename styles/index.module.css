@@ -6,8 +6,8 @@
 
 .index table {
     border-collapse: collapse;
-    margin-inline: auto;
 }
+
 
 .index table em {
     font-style: normal;
@@ -25,6 +25,18 @@
 .index td,
 .index th {
     padding-inline: 1rem;
+    padding-block: .25rem;
+}
+
+.index img {
+    max-block-size: 4rem;
+    inline-size: auto;
+    margin-inline: auto;
+}
+
+.index h1 + p {
+    font-size: x-large;
+    margin-block-start: -1.5rem;
 }
 
 .navbar {

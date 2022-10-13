@@ -15,7 +15,7 @@ const processor = remark()
     .use(rehypeStringify, { allowDangerousHtml: true });
 
 export default function htmlize(item: string): string {
-    const fullPath = path.join(process.cwd(), "pages", item);
+    const fullPath = path.join(process.cwd(), "content", item + ".md");
     const md = fs.readFileSync(fullPath);
     const result = processor.processSync(md);
     return result.toString();

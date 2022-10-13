@@ -25,3 +25,7 @@
 .box > footer img {
     max-height: 4ex;
 }
+
+.box > footer img[data-bg] {
+    background-color: var(--semi-transparent);
+}
