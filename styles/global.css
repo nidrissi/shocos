@@ -30,6 +30,18 @@ body {
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
+body::after {
+  content: "";
+  background: url(/disks.svg) no-repeat center/30%;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
 a {
   color: var(--primary);
   text-decoration: inherit;
