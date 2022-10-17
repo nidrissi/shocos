@@ -5,7 +5,7 @@ import styles from "../styles/404.module.css";
 
 export default function Error404() {
   return (
-    <Layout title="404 Not Found" description="Not Found">
+    <Layout title="404 Not Found" description="Not Found" location="404">
       <div className={styles["hero"]}>
         <div>
           <h1 role="banner">
