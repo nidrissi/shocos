@@ -1,0 +1,37 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest.json",
+    "name": "SHoCoS -- ANR-22-CE40-0008",
+    "short_name": "SHoCoS",
+    "description": "Home page of Najib Idrissi",
+    "start_url": "/",
+    "lang": "en",
+    "background_color": "#f3f3f3",
+    "theme_color": "#286846",
+    "icons": [
+        {
+            "src": "/photo/photo-32.webp",
+            "sizes": "32x32",
+            "type": "image/webp"
+        },
+        {
+            "src": "/photo/photo-72.webp",
+            "sizes": "72x72",
+            "type": "image/webp"
+        },
+        {
+            "src": "/photo/photo-144.webp",
+            "sizes": "144x144",
+            "type": "image/webp"
+        },
+        {
+            "src": "/photo/photo-256.webp",
+            "sizes": "256x256",
+            "type": "image/webp"
+        },
+        {
+            "src": "/photo/photo-512.webp",
+            "sizes": "512x512",
+            "type": "image/webp"
+        }
+    ]
+}

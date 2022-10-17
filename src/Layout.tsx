@@ -6,12 +6,18 @@ interface LayoutProps {
     children: React.ReactNode;
     title: string;
     description: string;
+    location: string;
 }
-export default function Layout({ title, description, children }: LayoutProps) {
+export default function Layout({ title, description, location, children }: LayoutProps) {
     return <div className={styles["box"]}>
         <Head>
+            <meta charSet="utf-8" />
+            <link rel="canonical" href={`https://shocos.idrissi.eu/${location}`} />
             <title>{title}</title>
             <meta name="description" content={description} />
+            <link rel="author" href="Najib Idrissi" />
+            <link rel="manifest" href="/manifest.webmanifest" />
+            <link rel="icon" type="image/webp" href="/icon/icon-32.webp" />
         </Head>
 
         <main>
