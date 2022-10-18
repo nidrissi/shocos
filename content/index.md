@@ -16,7 +16,7 @@ The overall budget of the project is 214&nbsp;k€.
 |-|-|-|
 | ![Adrien Brochier](/photo/adrien.webp) | [Adrien *Brochier*](https://abrochier.org/) | Université Paris Cité & IMJ-PRG |
 | ![Yves Guiraud](/photo/yves.webp) | [Yves *Guiraud*](https://webusers.imj-prg.fr/~yves.guiraud/) | INRIA & IMJ-PRG |
-| ![Najib Idrissi](/photo/najib.webp) | [Najib *Idrissi*](https://idrissi.eu) (PI) | Université Paris Cité & IMJ-PRG |
+| ![Najib Idrissi](/photo/najib.webp) | [Najib *Idrissi*](https://idrissi.eu) (coordinator) | Université Paris Cité & IMJ-PRG |
 | ![Christine Vespa](/photo/christine.webp) | [Christine *Vespa*](https://irma.math.unistra.fr/~vespa/) | Aix-Marseille Université & I2M |
 
 ## Events
