@@ -6,6 +6,9 @@
 
 .box > main {
     flex-grow: 1;
+    max-inline-size: 120ch;
+    margin-inline: auto;
+    padding: .5rem 1rem;
 }
 
 .box > footer {
@@ -27,5 +30,17 @@
 }
 
 .box > footer img[data-bg] {
-    background-color: var(--semi-transparent);
+    background-color: white;
+}
+
+.navbar {
+    background-color: var(--accent);
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: var(--background);
 }

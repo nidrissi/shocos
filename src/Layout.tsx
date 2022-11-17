@@ -20,6 +20,14 @@ export default function Layout({ title, description, location, children }: Layou
             <link rel="icon" type="image/webp" href="/icon/icon-32.webp" />
         </Head>
 
+        <nav className={styles["navbar"]}>
+            <Link href="/">Home</Link>
+            <Link href="/#members">Members</Link>
+            <Link href="/#events">Events</Link>
+            <Link href="/#postdoctoral-position">Postdoc</Link>
+            <Link href="/#publications">Publications</Link>
+        </nav>
+
         <main>
             {children}
         </main>

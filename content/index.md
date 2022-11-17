@@ -21,7 +21,7 @@ The overall budget of the project is 214&nbsp;k€.
 
 ## Events
 
-More to come later!
+* [**Workshop on Homology of Configuration Spaces and related topics**](/conf0523), May 2023.
 
 ## Postdoctoral position
 

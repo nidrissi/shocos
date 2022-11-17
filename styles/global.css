@@ -101,3 +101,22 @@ video {
 .katex-display > .katex {
   white-space: normal !important;
 }
+
+table {
+  border-collapse: collapse;
+}
+
+tr td:nth-child(2) em {
+  font-style: normal;
+  font-variant-caps: small-caps;
+}
+
+thead {
+  border-block-end: thin solid var(--text);
+}
+
+td,
+th {
+  padding-inline: 1rem;
+  padding-block: .25rem;
+}
